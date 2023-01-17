@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+ul {
+    background-color: #444;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #444;
+}
+
+footer p {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin-left: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+p {
+    font-size: 24px;
+}
