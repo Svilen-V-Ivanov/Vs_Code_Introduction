@@ -1,0 +1,22 @@
+/* might be html and not body, check */
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+img {
+    height: 320px;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+aside {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+}
