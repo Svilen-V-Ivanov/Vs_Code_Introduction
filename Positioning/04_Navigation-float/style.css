@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin-top: 0px;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    margin-right: 100px;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+/* Check if it has to be only for this one, because header p makes all p-s inline blocks */
+.big {
+    position: relative;
+    bottom: -30px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+header nav {
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    display: inline-block;
+}
+
+header nav li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+img {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 3px solid black;
+    float: right;
+    margin-left: 10px;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+.aside {
+    display: inline-block;
+    width: 40%;
+}
+
+blockquote {
+    display: inline-block;
+    width: 40%;
+    font-family: Georgia, serif;
+    color: darkgray;
+    font-style: italic;
+    border-left: 2px solid gray;
+    padding-left: 35px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section nav ul {
+    list-style-type: square;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
