@@ -1,0 +1,39 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+li:first-child a:hover {
+    color: blue;
+}
+
+li:nth-child(2) a:hover {
+    color: rgb(0, 172, 237);
+}
+
+li:nth-child(3) a:hover {
+    color: red;
+}
+
+li:nth-child(4) a:hover {
+    color: rgb(0, 123, 182);
+}
+
+li:nth-child(5) a:hover {
+    color: rgb(116, 184, 215);
+}
