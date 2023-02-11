@@ -1,0 +1,27 @@
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 30px;
+}
+
+div {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+ul li:last-child {
+    padding-right: 15px;
+}

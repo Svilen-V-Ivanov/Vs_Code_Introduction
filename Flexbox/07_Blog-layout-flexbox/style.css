@@ -1,0 +1,82 @@
+/* CSS */
+/* Base properties */
+body {
+  background-color: rgb(238, 238, 238);
+  padding: 20px 60px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 5px;
+  align-self: baseline;
+}
+
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+/* Main flex */
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 70%;
+}
+
+aside {
+  page-break-before: always;
+  padding-left: 150px;
+}
+/* Blockquote container */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.aside {
+  width: 50%;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  color: gray;
+  width: 50%;
+  border-left: 2px solid gray;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Heading one container */
+
+.float-right {
+  float: right;
+  margin-left: 10px;
+}
+
+/* Heading two container */
+
+.float-left {
+  float: left;
+  margin-right: 10px;
+}

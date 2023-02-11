@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+}
+
+.gallery ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  /* personally i don't agree with using justify content in this case */
+  justify-content: space-between;
+  gap: 10px;
+}
+
+li {
+  border: 10px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+}
+
+img {
+  box-shadow: gray;
+  
+}
