@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: sans-serif;
+}
+
+/* Card visuals */
+.card {
+    width: 300px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.card section {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.card h3 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.card p {
+    margin-top: 0px;
+}
+
+.card footer {
+    padding: 20px;
+    border-top: 2px solid rgb(238, 238, 238);
+}
+
+/* Masonry */
+
+body h2 {
+    padding-left: 24vw;
+}
+.masonry {
+    margin: auto;
+    width: 50vw;
+    columns: 3;
+    column-gap: 20px;
+}
+
+/* Flex */
+
+.flex {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 50vw;
+    gap: 25px;
+}
+
+.flex .card {
+    margin-bottom: 0px; 
+}
+
+.flex .card img {
+    height: auto;
+}
+
+.flex .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
